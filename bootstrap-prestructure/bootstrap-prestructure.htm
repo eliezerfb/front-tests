@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -35,20 +37,72 @@
       </div>
       <div class="row text-center">
         <div class="col-md-4">
-          <img src="http://lorempizza.com/555/300" class="img-fluid">
+          <img src="http://lorempizza.com/555/300" class="img-fluid" data-toggle="modal" data-target="#project1">
           <h3>Appify</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img src="http://lorempizza.com/555/300" class="img-fluid">
+          <img src="http://lorempizza.com/555/300" class="img-fluid" data-toggle="modal" data-target="#project2">
           <h3>Sunflower</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img src="http://lorempizza.com/555/300" class="img-fluid">
+          <img src="http://lorempizza.com/555/300" class="img-fluid" data-toggle="modal" data-target="#project3">
           <h3>Bokeh</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
       </div>
+      <!-- Modal -->
+         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                     </div>
+                     <div class="modal-body">
+                         <img class="img-fluid" src="http://lorempizza.com/555/300">
+                         Este foi meu primeiro projeto nesta aula. Aprendi muito sobre HTML e CSS.
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- Modal -->
+         <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                     </div>
+                     <div class="modal-body">
+                         <img class="img-fluid" src="http://lorempizza.com/555/300">
+                         Este foi meu segundo projeto nesta aula. Aprendi muito sobre bootstrap.
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <!-- Modal -->
+         <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+             <div class="modal-dialog">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                     </div>
+                     <div class="modal-body">
+                         <img class="img-fluid" src="http://lorempizza.com/555/300">
+                         Este foi meu terceiro projeto nesta aula. Aprendi muito sobre interatividade.
+                     </div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
   </body>
 </html>
