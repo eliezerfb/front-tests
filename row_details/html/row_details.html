@@ -6,11 +6,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
     <style media="screen">
       td.details-control {
-          background: url('../resources/details_open.png') no-repeat center center;
+          background: url('details_open.png') no-repeat center center;
           cursor: pointer;
         }
       tr.shown td.details-control {
-        background: url('../resources/details_close.png') no-repeat center center;
+        background: url('details_close.png') no-repeat center center;
       }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -38,7 +38,7 @@
     $(document).ready(function() {
         var table = $('#example').DataTable( {
             // "ajax": "../ajax/data/objects.txt",
-            "ajax": "objects.txt",
+            "ajax": "https://raw.githubusercontent.com/eliezerfb/front-tests/master/row_details/html/objects.txt",
             "columns": [
                 {
                     "className":      'details-control',
